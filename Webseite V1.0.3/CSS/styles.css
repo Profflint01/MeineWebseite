@@ -1,0 +1,345 @@
+/* Body Styles */
+
+h3 {
+    text-align: center;
+    padding-bottom: 0cm;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+    text-decoration-line: underline;
+}
+
+.container {
+    width: 50%;
+    margin: 1cm;
+    padding: 20px;
+    background-color: #b5b5b5;
+    text-align: left; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    color: black;
+    padding: 0;
+    text-align: left;
+}
+
+/* Feedback */
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.btn {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.btn:hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
+
+input:hover {
+    transform: scale(1.01);
+}
+
+/* Darkmode */
+
+.dark-mode {
+    background-color: #24262b;
+    color: white;
+}
+
+
+.dark-mode .container {
+    background-color: #333;
+}
+
+.dark-mode .form-control {
+    background-color: #444;
+}
+
+.dark-mode .btn-primary {
+    background-color: #007bff;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+body.dark-mode .project-placeholder {
+    background-color: #4c4d51;
+    color: white; 
+}
+
+body.dark-mode .skill {
+    background-color: #4c4d51;
+    color: white; 
+}
+
+.button {
+    background-color: white; 
+    color: #4c4d51; 
+    border: none;
+}
+
+body.dark-mode button {
+    background-color: #4c4d51;
+    color: white;
+    border: none;
+}
+
+/* Projects */
+
+.projects {
+    padding: 50px;
+    text-align: center;
+}
+
+.placeholder-projects-title {
+    font-size: 30px;
+    color: #0080ff;
+}
+
+.project-placeholder {
+    background-color: rgb(244, 244, 244);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.placeholder-project-name {
+    font-size: 24px;
+    color: #2980b9;
+}
+
+.placeholder-project-description {
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.project-placeholder:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Auto typing text */
+
+.multicont {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    height: 5vh;            
+    text-align: center;       
+}
+
+.multitext {
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 1;  
+}
+
+.typed-cursor {
+    display: inline-block;
+    width: auto;
+    height: 1em;
+    color: green;
+    margin-left: 5px; 
+    animation: blink 0.7s infinite;
+}
+
+/* Menu */
+
+body ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    padding-left: 0cm;
+}
+
+li:last-child {
+    border-right: none;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Menu Darkmode */
+
+body > ul > li a:hover {
+    background-color: #111;
+}
+
+body ul li a:hover {
+    background-color: #111;
+}
+
+footer ul li a:hover {
+    background-color: transparent;
+}
+
+/* Skills */
+
+.Skills {
+    text-align: center;
+}
+
+.skill {
+    background-color: white; 
+    color: #4c4d51; 
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.skill {
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill img {
+    width: 50px; 
+    height: 50px; 
+    margin-bottom: 10px;
+}
+
+.skill:hover {
+    transform: scale(1.04);
+    transition: transform 0.3s ease;
+    background-color: #f3f3f3;
+}
+
+
+.project-placeholder {
+    background-color: white; 
+    color: #4c4d51; 
+}
+
+/* skills no border */
+
+.mb-3 {
+    border: none;
+}
+
+/* footer */
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    color: #ffffff;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    width: 50px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #bbbbbb;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #464646;
+    background-color: #ffffff;
+}
+
+footer ul {
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+} 
