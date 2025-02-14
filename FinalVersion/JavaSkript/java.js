@@ -4,7 +4,7 @@ function EnableDarkTheme() {
 }
 
 var typed = new Typed(".multitext", {
-    strings: ["Label", "Thanks for visiting my website!", "I am profflint, a Developer"],
+    strings: ["something different", "Thanks for visiting my website!", "I am profflint, a Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 2000,
