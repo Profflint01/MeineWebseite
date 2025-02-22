@@ -1,0 +1,3 @@
+Ideas:
+- Slide Funktion Between Projekts
+- Update CSS of Feedback
